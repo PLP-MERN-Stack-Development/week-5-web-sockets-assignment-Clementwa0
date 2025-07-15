@@ -1,0 +1,35 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Uploads (optional: you may want to ignore this in production)
+uploads/
+
+# Editor folders
+.vscode/
+.idea/
+
+# Build artifacts (if any)
+dist/
+build/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Debugging stuff
+debug.log

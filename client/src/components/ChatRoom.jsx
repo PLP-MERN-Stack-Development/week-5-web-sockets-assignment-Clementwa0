@@ -39,7 +39,7 @@ const ChatRoom = ({ username, avatar }) => {
     addReaction,
     markAsRead,
     searchMessages
-  } = useSocket('http://localhost:5000');
+  } = useSocket('http://localhost:3001');
 
   useEffect(() => {
     joinChat(username, avatar);

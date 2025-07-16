@@ -39,7 +39,7 @@ const ChatRoom = ({ username, avatar }) => {
     addReaction,
     markAsRead,
     searchMessages
-  } = useSocket('http://localhost:3001');
+  } = useSocket('https://week-5-web-sockets-assignment-clementwa0.onrender.com');
 
   useEffect(() => {
     joinChat(username, avatar);
